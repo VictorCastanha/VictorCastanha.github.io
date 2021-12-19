@@ -1,0 +1,75 @@
+<!DOCTYPE html> <!-- HTML5 doctype -->
+
+<html lang="en"> <!-- HTML5 opening HTML tag with language. The HTML tag can also be used on it's own -->
+
+	<head>
+		<meta charset="UTF-8"> <!-- HTML5 charset -->
+		
+		<title> Login - Juan’s Mexican Street Food</title>
+		
+		<link rel="stylesheet" href="CA2.css"> 
+
+		<script src="CA2.js"></script> <!-- >  O link com o meu JAva Script External <!-->
+
+	</head>
+
+	<body>
+		
+		<div id="border"> <!-- border around the page --> 
+		<div id="border1"> <!-- border around the page --> 
+		<div id="border2"> <!-- border around the page --> 
+			
+		<div id="top">
+				<marquee  loop="3"
+				scrollamount="8" width="56.5%">
+				<h1>Juan’s Mexican Street Food</h1>
+				</marquee>
+
+		</div> <!--top-->
+		
+		<div id="navbar">			
+			<ul id="ul">
+			  <li><a href="Index.html#home">Home</a></li>
+			  <li><a href="Login.html#menu">Login</a></li>
+			  <li><a href="Order%20Now.html">Order Now</a></li>
+			</ul>
+		</div> <!--navbar-->
+		<div id="left">
+				
+				<h2> Login to your Account</h2> 
+				<br>					
+				
+				<table id="table2">  
+				
+					<tr>
+					<td>Email Address:</td>
+					<td><input type="email" name="email" required placeholder="Enter a valid email address" id="email"></td></tr>
+										
+					<tr><td> Username:</td>   					
+					<td><input type="text" placeholder="Enter your username" id="entered_username"></td></tr>  
+						
+					<tr><td> Password:</td>  					
+					<td><input type="password" placeholder="Password" maxlength="11" id="password1"></td></tr>  								
+				</table>  
+				
+				
+					<input type="submit" value="Sign in" onClick="login()"/>  <!--login() is the name of my Function, need this to use at CA2.js-->
+					
+		</div><!--left-->
+
+		<div id="right">
+			<div id="images">
+					<img src="3_image.jpg" alt="this is a image" width=400 height=350>
+			</div> <!-- images-->
+		</div><!--right-->
+
+		</div> <!-- border -->
+		</div> <!-- border -->		
+		</div> <!-- border -->
+		
+	</body>
+
+
+
+
+</html>

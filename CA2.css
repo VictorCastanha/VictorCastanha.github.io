@@ -1,0 +1,138 @@
+
+	* {margin: 0px;padding: 0px;border-color: #bdcbdb;box-sizing: border-box;}
+	
+	
+
+	
+	#images {
+		text-align: center ;	
+	}
+
+	#border{
+		border-bottom: 15px solid green;
+		border-top: 15px solid green;
+		border-left: 15px solid green;
+		border-right: 15px solid green;
+		height: 657px;
+		
+			}
+		
+	#border1{
+		border-bottom: 15px solid #C0B803;
+		border-top: 15px solid #C0B803;
+		border-left: 15px solid #C0B803;
+		border-right: 15px solid #C0B803;
+		height: 630px;
+			}
+		
+	#border2{
+		border-bottom: 15px solid red;
+		border-top: 15px solid red;
+		border-left: 15px solid red;
+		border-right: 15px solid red;
+		height: 600px;
+			}
+		
+	#top	{
+			color: #C0B803;
+			border: 1px solid black;
+			padding: 22px;
+			text-align: center;
+			background-image: url("2_image.jpg");
+			background-position:center;
+			background-repeat:no-repeat;
+			background-color: #C0B803;
+
+			}	
+		
+	
+	#right {
+		width: 50%;
+		height: 440px;
+		padding: 45px;
+		border-bottom: 1px solid black;
+		border-top: 1px solid black;
+		border-right: 1px solid black;
+		background-color: #C0B803;
+		float:right;
+		
+		}
+		
+	#left{
+		
+		display: block;
+		width: 50%;
+		height: 440px;
+		border-bottom: 1px solid black;
+		border-top: 1px solid black;
+		border-left: 1px solid black;
+		background-color: #C0B803;
+		float:left;	
+		text-align: center;
+		padding: 20px;
+		}	
+	
+			
+	#ul {
+		  list-style-type: none;
+		  margin: 0;
+		  padding: 0;
+		  overflow: hidden;
+		  background-color: green;
+		}
+
+	#ul li {
+	  float: left;
+			}
+
+	#ul li a {
+	  display: inline-block;
+	  color: white;
+	  text-align: left;
+	  padding: 15px 184px;
+	  text-decoration: none;
+			  }
+
+	#ul li a:hover {
+	  background-color: red;
+					}
+
+	#table1 {
+		text-align: center;
+		font-size: 20px;
+		margin-left: 220px;
+		width: 30%;
+		border-bottom: 1px solid green;
+		border-top: 1px solid green;
+		border-left: 1px solid green;
+		border-right: 1px solid green;
+	}
+	
+	#table2 {
+		text-align: center;
+		font-size: 20px;
+		margin-top: 72px;
+		margin-left: 160px;
+		width: 60%;
+		border-bottom: 1px solid green;
+		border-top: 1px solid green;
+		border-left: 1px solid green;
+		border-right: 1px solid green;
+	}
+	
+	#table2 {
+		text-align: center;
+		font-size: 20px;
+		margin-top: 72px;
+		margin-left: 200px;
+		width: 60%;
+		border-bottom: 1px solid green;
+		border-top: 1px solid green;
+		border-left: 1px solid green;
+		border-right: 1px solid green;
+	}
+
+h2 {
+	text-align: left;
+}
+	
